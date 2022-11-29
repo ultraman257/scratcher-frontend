@@ -1,5 +1,3 @@
-import Header from './header/componet';
+import Header from './header/componet'
 
-export {
-	Header
-}
+export { Header }

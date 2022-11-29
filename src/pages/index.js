@@ -1,7 +1,4 @@
-import Index from './index/page';
-import NewTask from './new/page';
+import Index from './index/page'
+import NewTask from './new/page'
 
-export {
-	Index,
-	NewTask
-}
+export { Index, NewTask }
