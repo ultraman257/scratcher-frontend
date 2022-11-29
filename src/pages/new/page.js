@@ -1,6 +1,7 @@
+import React from 'react';
 import { useState } from 'react';
 
-const NewTask = (props) => {
+const NewTask = () => {
 	
 	const [URL, setURL] = useState('https://');
 	const [URLCapture, setURLCapture] = useState('');
