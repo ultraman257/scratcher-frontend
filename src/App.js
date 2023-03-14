@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Header } from './components';
 import { Index, NewTask } from './pages';
+import { View } from './pages';
 
 const BrowserRouter = createBrowserRouter([
 	{
@@ -18,7 +18,7 @@ const BrowserRouter = createBrowserRouter([
 	},
 	{
 		path: "/task/view/:id",
-		element: <div className='intro'><h4>View</h4></div>
+		element: <View />
 	},
 	{
 		path: "/task/view/:id/page/:id",
@@ -29,7 +29,6 @@ const BrowserRouter = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-	    <Header />
 	    <RouterProvider router={BrowserRouter} />
     </div>
   );
